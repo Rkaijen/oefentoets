@@ -2,17 +2,19 @@
 --------------------             --------------------
 |  Boat            | ----------> |  Tour            |
 | ================ |             | ================ |
-|  ID              |             |  ID              |
-|  boatnumber      |             |  time_depart     |
-|  status_available|             |  time_return     |
+|  id              |             |  id              |
+|  tour_id         |             |  time_depart     |
+|  boat_number     |             |  time_return     |
+|  status_available|             |                  |
 --------------------             --------------------
                                   /\
                                   |
                                   |
-                                 --------------------
-                                 |  Price           |
-                                 | ================ |
-                                 |  ID              |
-                                 |  time_depart     |
-                                 |  time_return     |
-                                 --------------------
+                                 ----------------------
+                                 |  Price             |
+                                 | ================== |
+                                 |  ID                |
+                                 |  price             |
+                                 |  weather_condition |
+                                 |  crowd_condition   |
+                                 ----------------------
