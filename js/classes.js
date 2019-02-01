@@ -4,7 +4,6 @@ class Boat {
     this._id = data.id;
     this._tour_id = data.tour_id;
     this._number = data.number;
-    this._status = data.status;
   }
 
 }
